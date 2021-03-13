@@ -1,0 +1,61 @@
+export const homeObjOne = {
+    id: 'servicios',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    firstBlock: 'Soluciones de pagos Online',
+    secondBlock: 'Plataforma online para el monitoreo del estado de la cobranza',
+    topLine: '',
+    headline: 'Gateway',
+    description: 'COIN te permite procesar pagos online con tarjetas de crédito y débito, a través de múltiples adquirentes: First Data/FiServ, Prisma Medios de Pago, Red Link, con los números de establecimiento y reglas de negocios de tu empresa.',
+    buttonLabel: 'Comenzar',
+    imgStart: false,
+    img: require('./../../images/img1.jpg'),
+    alt: 'Car',
+    dark: true,
+    primary: true,
+    darkText: false,
+    
+    headline2: 'Express',
+    description2: 'COIN te permite procesar pagos online con tarjetas de crédito y débito, a través de múltiples adquirentes: First Data/FiServ, Prisma Medios de Pago, Red Link, con los números de establecimiento y reglas de negocios de tu empresa.',
+    buttonLabel2: 'Comenzar',
+    img2: require('../../images/svg1.svg'),
+}
+
+export const homeObjTwo = {
+    id: 'ventajas',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    firstBlock: 'Cobro Inmediato',
+    secondBlock: 'Plataforma online para el monitoreo del estado de la cobranza',
+    topLine: 'Premium Bank',
+    headline: 'Unlimited Transactions with zero fees',
+    description: 'Get access to our exclusive app tha allows you to send unlimited transactions without getting charged any fees.',
+    buttonLabel: 'Get started',
+    imgStart: true,
+    img: require('./../../images/svg2.svg'),
+    alt: 'Car',
+    dark: false,
+    primary: false,
+    darkText: true 
+}
+
+export const homeObjThree = {
+    id: 'gateway',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    firstBlock: 'Cobro Inmediato',
+    secondBlock: 'Plataforma online para el monitoreo del estado de la cobranza',
+    topLine: 'Premium Bank',
+    headline: 'Unlimited Transactions with zero fees',
+    description: 'Get access to our exclusive app tha allows you to send unlimited transactions without getting charged any fees.',
+    buttonLabel: 'Get started',
+    imgStart: false,
+    img: require('../../images/svg3.svg'),
+    alt: 'Car',
+    dark: true,
+    primary: true,
+    darkText: false 
+}
